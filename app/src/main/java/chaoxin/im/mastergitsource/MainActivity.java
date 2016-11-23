@@ -7,6 +7,11 @@ import android.view.Window;
 public class MainActivity extends AppCompatActivity {
 
     private Window container;
+import android.widget.TextView;
+
+public class MainActivity extends AppCompatActivity {
+
+    private TextView tv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,5 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         container = getWindow().getContainer();
         container.getContainer();
+        tv = (TextView) findViewById(R.id.tv);
+        tv.setText("one");
     }
 }
