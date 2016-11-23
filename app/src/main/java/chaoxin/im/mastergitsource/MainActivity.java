@@ -13,6 +13,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private TextView tv;
+    private Window container;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
