@@ -21,5 +21,6 @@ public class MainActivity extends AppCompatActivity {
         tv = (TextView) findViewById(R.id.tv);
         tv.setText("one");
         tv.setText("two");
+        tv.setText("123");
     }
 }
